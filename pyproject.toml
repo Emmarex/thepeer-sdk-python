@@ -4,9 +4,27 @@ version = "0.0.1"
 description = "Python SDK for Thepeer"
 authors = ["Oluwafemi Tairu <tairuoluwafemi09@gmail.com>"]
 license = "Apache-2.0"
+keywords = ["thepeer", "thepeer-sdk"]
+readme = "README.md"
+homepage = "https://github.com/Emmarex/thepeer-sdk-python"
+repository = "https://github.com/Emmarex/thepeer-sdk-python"
+include = [
+    "LICENSE",
+]
+classifiers=[
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache Software License",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers"
+]
 
 [tool.poetry.dependencies]
-python = "3.7.12"
+python = "^3.7.12"
 requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]

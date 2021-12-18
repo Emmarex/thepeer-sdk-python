@@ -250,8 +250,8 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 
 [metadata]
 lock-version = "1.1"
-python-versions = "3.7.12"
-content-hash = "3f686b25cc971984a5aa31faed3b2248d020018bf83a30d565a0b1931a3308c8"
+python-versions = "^3.7.12"
+content-hash = "a3af2329c551a2ffeade1b43a71049f25e7d8f58b16ea2f6e7706c476b6b0872"
 
 [metadata.files]
 autopep8 = [

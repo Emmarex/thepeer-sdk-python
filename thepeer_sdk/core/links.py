@@ -17,6 +17,9 @@ class Links():
     def get_user_links(self, user_ref: str) -> dict:
         """
         This returns all linked accounts associated with a user.
+
+        :params user_ref: str
+            the reference returned when the user was indexed
         """
 
         if not user_ref or user_ref.strip() == "":
@@ -30,6 +33,9 @@ class Links():
     def get_link(self, link_id: str) -> dict:
         """
         Get a linked account details
+
+        :params link_id: str
+            link ID
         """
 
         if not link_id or link_id.strip() == "":

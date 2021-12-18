@@ -35,7 +35,7 @@ class Users():
             }
         )
 
-    def list_users(self, page: int = 1, perPage: int = 10) -> dict:
+    def list_users(self, page: int = 1, per_page: int = 10) -> dict:
         """
         Get the list of all indexed users
 
@@ -47,6 +47,10 @@ class Users():
         """
         return self.api_client.make_get(
             url=f'{self.API_BASE_URL}/users',
+            query_params={
+                "page": page,
+                "perPage": per_page
+            }
         )
 
     def update_user(self, user_ref: str, user_identifier: str) -> dict:
