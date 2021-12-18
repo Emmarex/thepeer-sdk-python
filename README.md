@@ -42,6 +42,12 @@ thepeer_sdk_client.list_users()
 - get_user_links
 - get_link
 
+#### Send
+- verify_receipt
+- process_receipt
+
+#### Direct Charge
+
 ## Upgrade
 
 ```bash

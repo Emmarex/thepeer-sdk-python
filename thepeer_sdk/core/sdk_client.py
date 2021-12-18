@@ -1,12 +1,16 @@
+from thepeer_sdk.core.direct_charge import DirectCharge
 from thepeer_sdk.core.links import Links
+from thepeer_sdk.core.send import Send
 from thepeer_sdk.core.users import Users
 from thepeer_sdk.exceptions import ThepeerSDKException
 from thepeer_sdk.utils import ApiClient
 
 
 class ThepeerSdkClient(
+    DirectCharge,
+    Links,
     Users,
-    Links
+    Send
 ):
     """
     :param secret_key:
