@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "thepeer-sdk"
+version = "0.0.1"
+description = "Python SDK for Thepeer"
+authors = ["Oluwafemi Tairu <tairuoluwafemi09@gmail.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "3.7.12"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.16.0"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
