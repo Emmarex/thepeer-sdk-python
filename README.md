@@ -47,6 +47,8 @@ thepeer_sdk_client.list_users()
 - process_receipt
 
 #### Direct Charge
+- charge_link
+- authorize_charge
 
 ## Upgrade
 

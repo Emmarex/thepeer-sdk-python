@@ -18,6 +18,9 @@ class Send():
         """
         Verify a particular receipt.
         A receipt is an identifier for a pending transaction.
+
+        :param receipt_ref: str
+            reference of the receipt to process
         """
 
         if not receipt_ref or receipt_ref.strip() == "":
@@ -31,6 +34,12 @@ class Send():
     def process_receipt(self, receipt_ref: str, event: str) -> dict:
         """
         Process receipts generated from Thepeer inline.
+
+        :param receipt_ref: str
+            reference of the receipt to process
+
+        :param event: str
+            possible values - "success" or "insufficient_funds"
         """
 
         if not receipt_ref or receipt_ref.strip() == "":
