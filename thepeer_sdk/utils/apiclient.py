@@ -2,7 +2,7 @@ import json
 
 from requests import Response, request
 
-from thepeer_sdk import __api_version__, exceptions
+from thepeer_sdk import __api_version__
 from thepeer_sdk.exceptions import (ThepeerSDKForbiddenException,
                                     ThepeerSDKInvalidPayloadException,
                                     ThepeerSDKInvalidResourceException,

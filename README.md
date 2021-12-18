@@ -38,6 +38,10 @@ thepeer_sdk_client.list_users()
 - update_user
 - delete_user
 
+#### Link
+- get_user_links
+- get_link
+
 ## Upgrade
 
 ```bash

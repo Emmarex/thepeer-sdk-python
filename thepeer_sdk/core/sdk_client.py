@@ -1,10 +1,12 @@
+from thepeer_sdk.core.links import Links
 from thepeer_sdk.core.users import Users
 from thepeer_sdk.exceptions import ThepeerSDKException
 from thepeer_sdk.utils import ApiClient
 
 
 class ThepeerSdkClient(
-    Users
+    Users,
+    Links
 ):
     """
     :param secret_key:
