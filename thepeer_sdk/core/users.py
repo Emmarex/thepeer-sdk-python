@@ -47,7 +47,7 @@ class Users():
         """
         return self.api_client.make_get(
             url=f'{self.API_BASE_URL}/users',
-            query_params={
+            params={
                 "page": page,
                 "perPage": per_page
             }

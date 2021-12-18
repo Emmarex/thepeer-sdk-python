@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "thepeer-sdk"
-version = "0.0.1"
+version = "0.0.2"
 description = "Python SDK for Thepeer"
 authors = ["Oluwafemi Tairu <tairuoluwafemi09@gmail.com>"]
 license = "Apache-2.0"
