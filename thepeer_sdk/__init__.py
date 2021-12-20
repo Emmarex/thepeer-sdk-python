@@ -1,3 +1,3 @@
-__api_version__ = '0.0.1'
+__api_version__ = '0.0.2'
 
 from .core import ThepeerSdkClient
